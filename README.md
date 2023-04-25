@@ -1,13 +1,13 @@
 # Простые примеры типизации в React приложении
 ## Карточка с типами, возможностью передать в нее элементы
 
-<Card >{children}</Card>
+    <Card>{children}</Card>
 
 ## Универсальный список - получает массив и функцию рендера, в которой определяется какой компонент выводить для каждого элемента списка
 
-<List items={users} renderItem={(user: IUser) => <UserItem user={user} key={user.id} />} />
+    <List items={users} renderItem={(user: IUser) => <UserItem user={user} key={user.id} />} />
 
 ## Типизация событий 
 
-<EventsExample />
+    <EventsExample />
   
